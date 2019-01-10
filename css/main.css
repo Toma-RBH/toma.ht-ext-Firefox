@@ -1,1 +1,36 @@
+.main-popup-area{
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+}
 
+#spinner-image{
+    width: 50%;
+    height: auto;
+}
+
+/* #spinner-area{
+    top:20%;
+    position: relative;
+} */
+
+#logo-toma{
+    width: 30%;
+    height: auto;
+}
+
+#recommandation-area{
+    padding:10%;
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+}
+
+#recommandation-title{
+    color:#1b6db7;
+}
+
+#icon-toma{
+    width: 70px;
+    height: auto;
+    padding-bottom: 5%;
+}

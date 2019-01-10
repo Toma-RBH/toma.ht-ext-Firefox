@@ -5,9 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300">
+    <script src="../js/jquery.js"></script>
     <script src="../js/main.js"></script>
 </head>
 <body>
-    <!-- <h3> <center>Merci d'avoir utilisé TOMA</center></h3> -->
+    <div class="main-popup-area">
+        <center>
+            <h2 id="logo-text">Vérifiez avec TOMA</h2>
+            <img id="logo-toma" src="../images/logoToma.png"/>
+        </center>
+
+        <!-- SPINNER AREA -->
+            <div id="spinner-area">
+                <center>
+                    <h2 id="spinner-text">Veuillez patienter un instant...</h2>
+                </center>
+                <center>
+                    <img src="../images/spinner.gif"/ id="spinner-image">
+                </center>
+            </div>
+        <!-- END SPINNER AREA -->
+
+        <!-- RECOMMANDATION AREA -->
+            <div id="recommandation-area">
+                <center>
+                    <img src="../images/logoToma.png" id="icon-toma"/>
+                </center>
+                <p id="recommandation-text"></p>
+            </div>
+
+        <!-- END RECOMMANDATION AREA -->
+
+        
+    </div>
+
 </body>
 </html>
