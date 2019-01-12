@@ -76,9 +76,11 @@ function launchAPI() {
 
                 }else{
                     // Error
+                    $('#recommandation-area').show();
+                    $('#recommandation-footer').remove();
                     $("#spinner-area").remove();
                     $("#recommandation-title").html("Erreur");
-                    $("#recommandation-text").html("Erreur côté serveur. Veuillez recommencer");
+                    $("#recommandation-text").html("Erreur côté serveur. Veuillez recommencer.");
 
                 }
 
