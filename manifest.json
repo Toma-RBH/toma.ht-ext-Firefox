@@ -10,7 +10,7 @@
         "tabs",
         "contextMenus",
         "activeTab",
-        "<all_urls>"
+        "https://toma.ht/*"
     ],
     "background":{
         "scripts":["js/background.js"]
