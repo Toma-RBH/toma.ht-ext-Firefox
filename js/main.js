@@ -51,6 +51,8 @@ function launchAPI() {
                     if(data.error){
                         var recommandation = data.message;
                         $('#recommandation-footer').remove();
+                        linkToToma(url);
+
                     }else if(data.has_ressources){
                         var recommandation = data.recommandations;
 
